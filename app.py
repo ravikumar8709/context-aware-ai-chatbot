@@ -13,12 +13,13 @@ from langchain_groq import ChatGroq
 # ==============================
 # 🔑 GROQ API KEY
 # ==============================
-os.environ["GROQ_API_KEY"] = ""
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # ==============================
 # 🤖 LLM (Groq)
 # ==============================
 llm = ChatGroq(
+    groq_api_key=GROQ_API_KEY,
     model_name="llama-3.1-8b-instant",
     temperature=0.3
 )
