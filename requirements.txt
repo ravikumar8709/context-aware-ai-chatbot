@@ -1,9 +1,9 @@
 streamlit
 langchain
 langchain-community
-langchain-google-genai
-google-generativeai
+langchain-groq
+sentence-transformers
 faiss-cpu
-pypdf
 beautifulsoup4
 requests
+pypdf
