@@ -1,5 +1,6 @@
-echo "my_env/" > .gitignore
-echo "voice_env/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "*.pyc" >> .gitignore
-echo "temp.pdf" >> .gitignore
+﻿my_env/
+voice_env/
+__pycache__/
+*.pyc
+temp.pdf
+*.env
