@@ -1,6 +1,5 @@
-venv/
-venv310/
-__pycache__/
-*.pyc
-.env
-temp.pdf
+echo "my_env/" > .gitignore
+echo "voice_env/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "temp.pdf" >> .gitignore
