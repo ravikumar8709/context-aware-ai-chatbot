@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 import tempfile
 import os
 import base64
+from dotenv import load_dotenv
+load_dotenv()
 
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
